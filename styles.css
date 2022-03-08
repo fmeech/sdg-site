@@ -1,0 +1,32 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topnav {
+    background-color: #1C3738;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.topnav a:hover {
+    background-color: #274849;
+    color: white;
+}
+
+.header h1 {
+    background-color: #8BAAAD;
+    margin-top: 0px;
+    padding: 40px 40px 40px 40px;
+}
+
+.title {
+    text-align: center;
+}
