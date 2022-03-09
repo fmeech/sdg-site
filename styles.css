@@ -1,5 +1,6 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
 .topnav {
@@ -25,8 +26,25 @@
     background-color: #8BAAAD;
     margin-top: 0px;
     padding: 40px 40px 40px 40px;
+    stroke: inline;
 }
 
 .title {
     text-align: center;
+    position: relative;
+    font-size: 27px;
+}
+
+.book-left {
+    margin-left: 25px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    flex: 1, 1, auto;
+}
+
+.vert {
+    flex-direction: column;
 }
